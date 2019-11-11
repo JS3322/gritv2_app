@@ -76,7 +76,7 @@ class ForumDetailsWidget extends StatelessWidget {
                   child: Text("시작하기"),
                   color: Colors.blue,
                   onPressed: () {
-                    Navigator.pushNamed(context, '/game');
+                    Navigator.pushNamed(context, '/');
                   },
                 ),
                 

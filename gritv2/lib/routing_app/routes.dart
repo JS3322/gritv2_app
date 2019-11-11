@@ -7,7 +7,7 @@ import 'package:gritv2/pages/chart_page.dart';
 import 'package:gritv2/pages/login_screen.dart';
 import 'package:gritv2/pages/card.dart';
 import 'package:gritv2/pages/login.dart';
-import 'package:gritv2/game/shooting.dart';
+// import 'package:gritv2/game/shooting.dart';
 import 'package:gritv2/pages/switch/onOffSwitch.dart';
 
 final routes = {
@@ -19,5 +19,5 @@ final routes = {
   '/cardselect': (BuildContext context) => ContentsCards(),
   '/init': (BuildContext context) => LandingPage(),
   '/onoff': (BuildContext context) => OnOffSwitch(),
-  '/game': (BuildContext context) => Loadinggame(),
+//  '/game': (BuildContext context) => Loadinggame(),
 };
